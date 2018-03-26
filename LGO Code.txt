@@ -6,12 +6,9 @@ pragma solidity ^0.4.18;
 // Deployed to : 0xf7761e62a9bcdb3235d1927E3420DAA3924687aD
 // Symbol      : LGO
 // Name        : LET'S GO Token
-// Total supply: 100000000
+// Total supply: 20000000000
 // Decimals    : 10
 //
-// Enjoy.
-//
-// (c) by Vladimir Vladimirovich 2018
 // ----------------------------------------------------------------------------
 
 
@@ -116,7 +113,7 @@ contract LGOToken is ERC20Interface, Owned, SafeMath {
         symbol = "LGO";
         name = "Let's GO Token";
         decimals = 10;
-        _totalSupply = 200000000000000000000;
+        _totalSupply = 20000000000;
         balances[0xf7761e62a9bcdb3235d1927E3420DAA3924687aD] = _totalSupply;
         Transfer(address(0), 0xf7761e62a9bcdb3235d1927E3420DAA3924687aD, _totalSupply);
     }
